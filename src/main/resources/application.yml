@@ -1,0 +1,9 @@
+spring:
+    data:
+        cassandra:
+            compression: lz4
+            contact-points: 192.168.1.36
+            port: 9042
+            keyspace-name: maxmind
+
+
